@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight";
+
+.main-container {
+  @apply p-6;
+}
+
+.title {
+  @apply text-3xl font-bold mb-4;
+}
+
+.show-grid {
+  @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4;
+}
+
+.show-card {
+  @apply bg-gray-900 p-2 rounded shadow;
+}
+
+.show-card img {
+  @apply rounded;
+}
+
+.show-name {
+  @apply mt-2 text-sm font-semibold;
+}
